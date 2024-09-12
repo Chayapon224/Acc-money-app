@@ -1,0 +1,102 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/**
+ * Ionic Dark Mode
+ * -----------------------------------------------------
+ * For more info, please see:
+ * https://ionicframework.com/docs/theming/dark-mode
+ */
+
+/* @import "@ionic/angular/css/palettes/dark.always.css"; */
+/* @import "@ionic/angular/css/palettes/dark.class.css"; */
+@import "@ionic/angular/css/palettes/dark.system.css";
+
+#we {
+  font-size: 99px;
+  color: black;
+}
+
+img {
+  position: absolute;
+  bottom: 0px;
+  color: #f1f1f1;
+  width: 84%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0 0 0;
+  text-align: center;
+  opacity: 1;
+  left: 8%;
+  top: 12%;
+}
+
+ion-datetime {
+  position: absolute;
+  left: 4.6%;
+  top: 22%;
+}
+
+ion-header {  background: rgb(64, 255, 0);
+  
+
+
+}
+ion-title {  background: rgb(64, 255, 0);
+  
+
+
+}
+ion-toolbar{  background: rgb(64, 255, 0);
+  
+
+
+}
+ion-button:hover {
+
+
+
+  background: rgb(64, 255, 0);
+  
+
+
+}
+
+h1{
+font-size:32px;
+
+
+}
+
+h2{
+  font-size:24px;
+  
+  
+  }
+  

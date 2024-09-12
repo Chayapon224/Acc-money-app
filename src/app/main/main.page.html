@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="light">
+    <ion-grid fixed="true">
+   
+      <ion-row>
+     <ion-col size="auto"><h1>นาย ปัง ผัวปอย <br>U6631478</h1></ion-col>
+
+        <ion-button (click)="gotodetail()" > <ion-icon name="ellipsis-vertical-outline" > </ion-icon><h2 slot="end">ติดต่อเรา</h2>  <br> </ion-button>
+
+      </ion-row>
+
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="w">
+
+  <ion-datetime value="2022-04-21T00:00:00" min="2022-03-01T00:00:00" max="2022-05-31T23:59:59"></ion-datetime>
+
+  <ion-button style="  margin-left: 30%;
+  margin-top: 128%;
+  width:184px;
+  height: 184px;
+  line-height: 500px;
+  border-radius: 50%;
+  font-size:28px;
+  color: #fff;
+  text-align: center;
+  background: red;" color="red" id="trigger-button" expand="block"><p>บันทึกกดเพื่อ</p>
+ 
+    <ion-popover trigger="trigger-button" >
+      <ng-template>
+        <ion-content class="ion-padding">
+   
+
+
+
+     <ion-grid>
+      <ion-row>
+        <ion-col>  <ion-button   id="present-alert"  expand="full">รายรับ</ion-button><ion-alert
+          trigger="present-alert"
+          header="รายรับ"
+          [buttons]="alertButtons"
+          [inputs]="alertInputs"
+        ></ion-alert></ion-col>
+        <ion-col>   <ion-button  id="present-alert2"  expand="full">รายจ่าย</ion-button>   <ion-alert trigger="present-alert2"
+          header="รายจ่าย"
+          [buttons]="alertButtons2"
+          [inputs]="alertInputs2"
+        ></ion-alert></ion-col>
+      </ion-row>
+    </ion-grid>
+
+        </ion-content>
+      </ng-template>
+    </ion-popover>
+  </ion-button>
+   
+
+</ion-content>
